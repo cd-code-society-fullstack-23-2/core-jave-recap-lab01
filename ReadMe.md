@@ -1,4 +1,4 @@
-````## Part A Coding Challenge
+## Part A Coding Challenge
 
 **Near and Far Challenge at Code Differently** 🌍🔍
 
