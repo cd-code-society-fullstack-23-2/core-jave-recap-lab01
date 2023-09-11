@@ -45,6 +45,10 @@ Once you've calculated the difference to perfection, don't forget to push your w
 
 ## Part B : Library Management System: Java Lab
 
+### Video Lecture
+
+[Overview Video](https://vimeo.com/863293912?share=copy)
+
 **Overview:**  
 In this lab, students will design and implement a Library Management System. This system will be responsible for cataloging books, tracking borrowed books, and managing borrowers. The lab will emphasize on object-oriented design, utilization of enumerations, and basic data operations in an ArrayList.
 
