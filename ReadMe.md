@@ -1,4 +1,4 @@
-## Part A Coding Challenge
+````## Part A Coding Challenge
 
 **Near and Far Challenge at Code Differently** 🌍🔍
 
@@ -88,8 +88,8 @@ In this lab, students will design and implement a Library Management System. Thi
         - borrowers: ArrayList<Borrower>
     - **Methods:**
         - _()
-        - addBook(): void
-        - removeBook(): void
+        - addBook(Book): void
+        - removeBook(Book): Boolean
         - addBororwer(Borrower):Boolean
         - searchBook(title): Book
         - searchBororwer(borrowerID):Borrower
@@ -118,8 +118,8 @@ In this lab, students will design and implement a Library Management System. Thi
         - email: String
     - **Methods:**
         - _(name, age, address, email)
-        - borrow(bookId:int): boolean
-        - returnBook(bookId:int): boolean
+        - borrow(book): boolean
+        - returnBook(book): boolean
         - getAddress():String
         - setAddress(String):void
         - getEmail():String
@@ -129,8 +129,8 @@ In this lab, students will design and implement a Library Management System. Thi
 **Method Description:**
 
 - **_(name, age, address, email)**: Constructor to initialize a new `Borrower` object with name, age, address, and email.
-- **borrow(bookId)**: Borrows a specific book from the library using its unique ID.
-- **returnBook(bookId)**: Returns a specific book to the library using its unique ID.
+- **borrow(book)**: Borrows a specific book from the library using its unique ID.
+- **returnBook(book)**: Returns a specific book to the library using its unique ID.
 - **getAddress()**: Retrieves the address of the borrower.
 - **setAddress(String)**: Sets or updates the address of the borrower.
 - **getEmail()**: Retrieves the email of the borrower.
@@ -253,3 +253,4 @@ In this lab, students will design and implement a Library Management System. Thi
         - Override the `toString()` method in each class (`Person`, `Library`, `Borrower`, `Author`, `Book`) to return a clear and readable string representation of its attributes.
 
 ---
+````
